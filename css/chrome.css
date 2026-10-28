@@ -1,0 +1,82 @@
+/* Top and bottom bars, add-node menu. */
+@layer components {
+  .bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    height: var(--bar-h);
+    background: var(--paper);
+    font-size: var(--fs-ui);
+    letter-spacing: var(--tracking);
+    text-transform: uppercase;
+  }
+  .bar-top {
+    top: 0;
+    /* border-bottom: 1px solid var(--rule); */
+  }
+  .bar-bottom {
+    bottom: 0;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 0 var(--pad);
+    /* border-top: 1px solid var(--rule); */
+    color: var(--ink-2);
+    white-space: nowrap;
+  }
+  .bar-bottom > span { overflow: hidden; text-overflow: ellipsis; }
+
+  .bar button {
+    height: 100%;
+    padding: 0 12px;
+    border: 0;
+    background: transparent;
+    letter-spacing: inherit;
+    text-transform: inherit;
+  }
+  .bar button:hover { background: var(--ink); color: var(--paper); }
+  .bar-title { padding-left: var(--pad) !important; }
+  .bar-actions { display: flex; height: 100%; margin-left: auto; }
+  /* .bar-actions button { border-left: 1px solid var(--rule); } */
+  .bar-actions button[aria-pressed="false"] { color: var(--ink-3); }
+
+  .menu {
+    position: fixed;
+    z-index: 40;
+    min-width: 180px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+  }
+  .menu-head {
+    height: var(--row-h);
+    padding: 0 var(--pad);
+    line-height: var(--row-h);
+    border-bottom: 1px solid var(--rule);
+    font-size: var(--fs-label);
+    letter-spacing: var(--tracking);
+    text-transform: uppercase;
+  }
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: var(--row-h);
+    padding: 0 var(--pad);
+    border: 0;
+    background: transparent;
+    text-align: left;
+  }
+  .menu-item small {
+    font-size: var(--fs-label);
+    letter-spacing: var(--tracking);
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .menu-item:hover,
+  .menu-item:focus-visible { outline: none; background: var(--ink); color: var(--paper); }
+  .menu-item:hover small,
+  .menu-item:focus-visible small { color: inherit; }
+}

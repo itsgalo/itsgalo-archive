@@ -1,0 +1,28 @@
+* { 
+	box-sizing: border-box;
+}
+
+html, body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  touch-action: none;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+canvas {
+	display: block;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: pixelated;
+	margin: auto;
+}
+#stats {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8pt;
+  position: fixed;
+}

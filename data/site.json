@@ -1,0 +1,23 @@
+{
+  "title": "Galo Canizares :: Project Archive",
+  "about": [
+    "Personal website."
+  ],
+  "contact": [
+    {
+      "label": "Email",
+      "href": "mailto:galo_c@alum.mit.edu"
+    }
+  ],
+  "projects": "data/projects.json",
+  "info": "data/info.json",
+  "graph": "data/graph.json",
+  "theme": "default",
+  "wires": "curve",
+  "grid": 8,
+  "fade": 450,
+  "mobile": {
+    "query": "(max-width: 720px)",
+    "interval": 7
+  }
+}

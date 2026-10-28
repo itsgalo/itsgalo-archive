@@ -1,0 +1,67 @@
+@layer components {
+  .console {
+    position: fixed;
+    top: calc(var(--bar-h) + 12px);
+    right: 12px;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    width: var(--console-w);
+    max-height: calc(100vh - 2 * var(--bar-h) - 24px);
+    background: var(--paper);
+    border: 1px solid var(--rule);
+  }
+  .console.is-hidden { display: none; }
+  .console.is-collapsed .console-body { display: none; }
+
+  .console-head {
+    flex: none;
+    display: flex;
+    align-items: center;
+    gap: var(--pad);
+    height: var(--row-h);
+    padding-left: var(--pad);
+    border-bottom: 1px solid var(--rule);
+    font-size: var(--fs-label);
+    letter-spacing: var(--tracking);
+    text-transform: uppercase;
+    cursor: grab;
+    user-select: none;
+  }
+  .console.is-collapsed .console-head { border-bottom: 0; }
+  .console.is-dragging .console-head { cursor: grabbing; }
+  .console-meta { margin-left: auto; color: var(--ink-3); }
+  .console-btn {
+    width: var(--row-h);
+    height: 100%;
+    padding: 0;
+    border: 0;
+    border-left: 1px solid var(--rule);
+    background: transparent;
+  }
+  .console-btn:hover { background: var(--ink); color: var(--paper); }
+
+  .console-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .console-view { overflow: auto; min-height: 0; }
+  .console-empty { margin: 0; padding: 10px var(--pad); color: var(--ink-3); }
+  .console-pre {
+    margin: 0;
+    padding: 10px var(--pad);
+    white-space: pre-wrap;
+    font: inherit;
+  }
+
+  .console-log {
+    flex: none;
+    padding: 4px var(--pad);
+    border-top: 1px solid var(--rule);
+    font-size: var(--fs-label);
+    color: var(--ink-3);
+  }
+  .console-log:empty { display: none; }
+  .console-log > div { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+}

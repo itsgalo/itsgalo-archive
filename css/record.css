@@ -1,0 +1,46 @@
+/* Project record: used in the Console and the mobile info panel. */
+@layer components {
+  .record-table {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin: 0;
+    align-items: center;
+  }
+  .record-table dt,
+  .record-table dd {
+    margin: 0;
+    padding: 4px var(--pad);
+    border-bottom: 1px solid var(--rule-soft);
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+  }
+  .record-table dt {
+    border-right: 1px solid var(--rule-soft);
+    font-size: var(--fs-label);
+    line-height: 17px;
+    letter-spacing: var(--tracking);
+    text-transform: uppercase;
+    color: var(--ink-2);
+  }
+  .record-table dd {
+    font: var(--fs-text) / 1.35 var(--font-text);
+  }
+  .record-table dd.is-title { font-size: var(--fs-title); }
+
+  .record-text {
+    padding: 10px var(--pad) 2px;
+    font: var(--fs-text) / 1.45 var(--font-text);
+  }
+  .record-text p { margin: 0 0 0.75em; }
+  .record-text:empty { display: none; }
+
+  .record-links {
+    list-style: none;
+    margin: 0;
+    padding: 0 var(--pad) 10px;
+  }
+  .record-links a { text-decoration: none; border-bottom: 1px solid var(--rule-soft); }
+  .record-links a:hover { border-color: var(--ink); }
+  .record-links a::before { content: "→ "; }
+}

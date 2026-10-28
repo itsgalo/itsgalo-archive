@@ -1,0 +1,145 @@
+{
+  "view": {
+    "x": 488,
+    "y": 320,
+    "z": 0.964
+  },
+  "nodes": [
+    {
+      "id": "N01",
+      "type": "archive",
+      "x": -440,
+      "y": -168,
+      "params": {}
+    },
+    {
+      "id": "N06",
+      "type": "projector",
+      "x": 1368,
+      "y": 656,
+      "params": {}
+    },
+    {
+      "id": "N07",
+      "type": "console",
+      "x": 416,
+      "y": 640,
+      "params": {}
+    },
+    {
+      "id": "N08",
+      "type": "info",
+      "x": -440,
+      "y": 592,
+      "params": {}
+    },
+    {
+      "id": "N11",
+      "type": "pick",
+      "x": -160,
+      "y": -96,
+      "params": {
+        "index": 21
+      }
+    },
+    {
+      "id": "N12",
+      "type": "media",
+      "x": 128,
+      "y": -16,
+      "params": {
+        "index": 0
+      }
+    },
+    {
+      "id": "N15",
+      "type": "preview",
+      "x": 408,
+      "y": -224,
+      "params": {
+        "w": 464,
+        "h": 496
+      }
+    },
+    {
+      "id": "N16",
+      "type": "media",
+      "x": 104,
+      "y": 408,
+      "params": {
+        "index": 1
+      }
+    },
+    {
+      "id": "N17",
+      "type": "clock",
+      "x": -296,
+      "y": 312,
+      "params": {
+        "interval": 4,
+        "run": true
+      }
+    },
+    {
+      "id": "N20",
+      "type": "random",
+      "x": -440,
+      "y": 32,
+      "params": {
+        "min": 0,
+        "max": 99,
+        "roll": 7
+      }
+    }
+  ],
+  "links": [
+    [
+      "N11",
+      "project",
+      "N12",
+      "project"
+    ],
+    [
+      "N11",
+      "project",
+      "N16",
+      "project"
+    ],
+    [
+      "N12",
+      "media",
+      "N15",
+      "media"
+    ],
+    [
+      "N16",
+      "media",
+      "N06",
+      "media"
+    ],
+    [
+      "N17",
+      "count",
+      "N16",
+      "index"
+    ],
+    [
+      "N08",
+      "record",
+      "N07",
+      "data"
+    ],
+    [
+      "N20",
+      "value",
+      "N11",
+      "index"
+    ],
+    [
+      "N01",
+      "collection",
+      "N11",
+      "collection"
+    ]
+  ]
+}

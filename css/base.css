@@ -1,0 +1,31 @@
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html, body { margin: 0; height: 100%; }
+
+  body {
+    background: var(--projector-bg);
+    color: var(--ink);
+    font: var(--fs-ui) / 1.4 var(--font-mono);
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  a { color: inherit; }
+  [hidden] { display: none !important; }
+
+  :focus-visible { outline: 1px solid var(--ink); outline-offset: 1px; }
+
+  /* Mode switches, set on <html> by main.js */
+  .mode-mobile .desktop-only,
+  .mode-desktop .mobile-only,
+  .mode-error .desktop-only { display: none !important; }
+
+  .boot-error {
+    position: fixed; inset: auto 16px 16px; margin: 0; padding: 8px 10px;
+    background: var(--paper); border: 1px solid var(--rule);
+  }
+}

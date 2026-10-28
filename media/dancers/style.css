@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+}
+button {background-color: Transparent; /* Green */
+  border: none;
+  display: none;
+  color: white;
+  padding: 0px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 52px;
+  font-family: 'courier', monospace;
+  outline: none;
+}

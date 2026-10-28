@@ -1,0 +1,20 @@
+/* Dark theme. Set "theme": "dark" in data/site.json. */
+@layer theme {
+  :root {
+    --paper: #1d1d1b;
+    --paper-2: #2a2a27;
+    --ink: #e6e4dd;
+    --ink-2: #a9a69d;
+    --ink-3: #6f6d66;
+    --rule: #e6e4dd;
+    --rule-soft: #45443f;
+    --select: #e6e4dd;
+    --projector-bg: #0f0f0e;
+
+    --type-collection: #c9a24a;
+    --type-project: #7d97ff;
+    --type-media: #e06a5a;
+    --type-number: #9a988f;
+    --type-text: #6dbb84;
+  }
+}

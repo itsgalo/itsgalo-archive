@@ -1,0 +1,91 @@
+@layer components {
+  .node {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: var(--node-w);
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--ink);
+    will-change: transform;
+  }
+
+  .node-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: var(--row-h);
+    padding: 0 var(--pad);
+    line-height: var(--row-h);
+    border-bottom: 1px solid var(--rule);
+    font-size: var(--fs-label);
+    letter-spacing: var(--tracking);
+    text-transform: uppercase;
+    cursor: grab;
+  }
+  .node-id { color: var(--ink-3); }
+
+  .node.is-selected .node-head { background: var(--select); color: var(--paper); }
+  .node.is-selected .node-id { color: inherit; opacity: 0.6; }
+  .node.is-dragging,
+  .node.is-dragging .node-head { cursor: grabbing; }
+
+  .node-body { padding: 3px 0; }
+
+  .node-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-height: var(--row-h);
+    padding: 0 var(--pad);
+  }
+  .node-row.is-out { justify-content: flex-end; }
+  .node-row > .widget { margin-left: auto; }
+
+  .node-label {
+    color: var(--ink-2);
+    white-space: nowrap;
+  }
+
+  .node-readout {
+    height: var(--row-h);
+    padding: 0 var(--pad);
+    line-height: var(--row-h);
+    border-top: 1px dashed var(--rule-soft);
+    font-size: var(--fs-label);
+    color: var(--ink-2);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Sockets: hollow when free, filled when linked. Colour follows type. */
+  .socket {
+    --sock: var(--ink);
+    position: absolute;
+    top: 50%;
+    width: var(--socket);
+    height: var(--socket);
+    margin-top: calc(var(--socket) / -2);
+    background: var(--paper);
+    border: 1px solid var(--sock);
+    cursor: crosshair;
+  }
+  .socket::after { content: ""; position: absolute; inset: -6px; }
+  .node-row.is-in > .socket { left: calc(var(--socket) / -2 - 0.5px); }
+  .node-row.is-out > .socket { right: calc(var(--socket) / -2 - 0.5px); }
+  .socket.is-connected { background: var(--sock); }
+
+  .socket[data-type="collection"] { --sock: var(--type-collection); }
+  .socket[data-type="project"]    { --sock: var(--type-project); }
+  .socket[data-type="media"]      { --sock: var(--type-media); }
+  .socket[data-type="number"]     { --sock: var(--type-number); }
+  .socket[data-type="text"]       { --sock: var(--type-text); }
+
+  /* While dragging a link */
+  .graph.is-linking .socket { opacity: 0.2; }
+  .graph.is-linking .socket.is-valid,
+  .graph.is-linking .socket.is-anchor { opacity: 1; }
+  .graph.is-linking .socket.is-snap { outline: 1px solid var(--sock); outline-offset: 2px; }
+}

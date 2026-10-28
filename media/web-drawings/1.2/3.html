@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>assorted demo scenes by office ca</title>
+    <meta charset="utf-8">
+    <style>
+      * {
+        margin:0;
+        padding:0
+      }
+
+      body {
+        overflow:hidden;
+        background-color: #f7d722;
+
+      }
+    </style>
+  </head>
+  <body>
+    <script src="./js/three.min.js"></script>
+    <script src="./js/cannon.js"></script>
+    <script src="./js/LegacyJSONLoader.js"></script>
+    <script src="./CannonDebugRenderer.js"></script>
+
+    <script>
+
+      let world, timeStep=1/60, camera, scene, renderer;
+      let material, material2, material3, dashed, dashed2, wireframe, tex, tex2;
+
+      let loader, loader2;
+      let shapes = [];
+      let shapes2 = [];
+      let bodies = [];
+      let bodies2 = [];
+      let lines = [];
+      let pts = [];
+      let cannonDebug;
+      let num = 10;
+      let groundShape, groundBody;
+      let geometry, curveGeo, curveObject;
+      let c = 0;
+      let angle = 0;
+      //load textures and models
+      tex = new THREE.TextureLoader().load('02Tex.png');
+      tex2 = new THREE.TextureLoader().load('03Tex.png');
+      loader = new THREE.LegacyJSONLoader();
+      loader2 = new THREE.LegacyJSONLoader();
+      loader.load("mesh02.json",
+        function (obj) {
+
+          initCannon();
+          initThree();
+          animate();
+          //pushStaticObjects(obj);
+          pushDynamicObjects(obj);
+          loadGround();
+          });
+
+      function loadGround() {
+        loader.load("mesh03.json",
+          function (mountain) {
+            pushStaticObjects(mountain);
+            });
+
+      }
+      function pushStaticObjects(obj) {
+
+          var trunk = new THREE.Mesh(obj, material3);
+          trunk.receiveShadow = true;
+          scene.add(trunk);
+
+      }
+
+      function randomNum(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+      }
+
+      function initCannon() {
+
+          world = new CANNON.World();
+          world.gravity.set(0,-9,0);
+          world.broadphase = new CANNON.NaiveBroadphase();
+          world.solver.iterations = 5;
+
+          groundShape = new CANNON.Plane();
+          groundBody = new CANNON.Body({ mass: 0 });
+          groundBody.quaternion.setFromAxisAngle(new CANNON.Vec3(1,0,0),-Math.PI/2);
+          groundBody.addShape(groundShape);
+          world.addBody(groundBody);
+
+      }
+      function initThree() {
+
+          scene = new THREE.Scene();
+          scene.background = new THREE.Color( 0x000000 );
+
+          var aspect = window.innerWidth / window.innerHeight;
+				  camera = new THREE.OrthographicCamera( 50 * aspect / - 2, 50 * aspect / 2, 50 / 2, 50 / - 2, -1000, 3000 );
+          scene.add( camera );
+
+          material = new THREE.MeshLambertMaterial({map: tex, transparent: true, side: THREE.DoubleSide});
+          material2 = new THREE.MeshBasicMaterial( {color:0xf7d722} );
+          material3 = new THREE.MeshLambertMaterial({map: tex2, transparent: true, side: THREE.DoubleSide});
+          //material4 = new THREE.ShadowMaterial({color: 0xffffff, side: THREE.DoubleSide, clipShadows: false});
+          wireframe = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide, transparent: true, opacity: 0 } );
+          dashed = new THREE.LineDashedMaterial( { color: 0xffffff, dashSize: 0.3, gapSize: 0.3, linewidth: 5 } );
+          dashed2 = new THREE.LineDashedMaterial( { color: 0x000000, dashSize: 0.3, gapSize: 0.3, linewidth: 5 } );
+
+          //var ground = new THREE.Mesh( new THREE.PlaneGeometry( 100, 100, 4, 4 ), wireframe );
+          //ground.rotation.x = -Math.PI/2;
+          //scene.add(ground);
+          //var gridHelper = new THREE.GridHelper( 10, 10 );
+          //scene.add( gridHelper );
+          var lineL = new THREE.Geometry();
+          lineL.vertices.push(
+	           new THREE.Vector3( -10, 10, 0 ),
+	           new THREE.Vector3( -10, -10, 0 ),
+	           new THREE.Vector3( 10, -10, 0 ),
+ 	           new THREE.Vector3( 10, 10, 0 )
+          );
+          var lineSegmentsA = new THREE.LineLoop( lineL, dashed );
+          lineSegmentsA.computeLineDistances();
+          scene.add( lineSegmentsA );
+
+
+          var ambientLight = new THREE.AmbientLight( 0x37acff  );
+				  scene.add( ambientLight );
+				  var directionalLight = new THREE.DirectionalLight( 0xc300d1 );
+				  directionalLight.position.set(0, 10, 0);
+				  directionalLight.position.normalize();
+          directionalLight.castShadow = true;
+          directionalLight.shadow.mapSize.width = 512;  // default
+          directionalLight.shadow.mapSize.height = 512;
+          directionalLight.shadow.camera.right = 50;
+          directionalLight.shadow.camera.left = -50;
+          directionalLight.shadow.camera.top  =  50;
+          directionalLight.shadow.camera.bottom = -50;
+          directionalLight.shadow.camera.near = -1000;
+          directionalLight.shadow.camera.far = 3000;
+				  scene.add( directionalLight );
+
+          //var helper = new THREE.CameraHelper( directionalLight.shadow.camera );
+          //scene.add( helper );
+
+          renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+          renderer.setSize( window.innerWidth, window.innerHeight );
+          renderer.shadowMap.enabled = true;
+          renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+          document.body.appendChild( renderer.domElement );
+          //controls = new THREE.OrbitControls( camera , renderer.domElement );
+          //controls.update();
+          //var axesHelper = new THREE.AxesHelper( 15 );
+          //scene.add( axesHelper );
+
+          cannonDebug = new THREE.CannonDebugRenderer( scene, world );
+
+      }
+      function pushDynamicObjects(obj) {
+          //worm maker
+          for (var i = 0; i < num; i++){
+
+              //var geo = new THREE.BoxGeometry(1, 0.2, 0.2);
+              var mesh = new THREE.Mesh(obj, material);
+              mesh.castShadow = true;
+              scene.add(mesh);
+              shapes.push(mesh);
+
+              let shape = new CANNON.Box(new CANNON.Vec3(5, 0.5, 0.5));
+              let body = new CANNON.Body({
+                mass: 1
+              });
+              body.addShape(shape);
+              body.position.set((i * 5)-10, 20, 0);
+              world.addBody(body);
+              bodies.push(body);
+          }
+
+          for (let i = 0; i < num - 1; i++){
+              let joint = new CANNON.ConeTwistConstraint(bodies[i], bodies[i+1], {
+                pivotA: new CANNON.Vec3(-5,0,0),//midpoint of body A in negative
+                pivotB: new CANNON.Vec3(5,0,0),//midpoint of body B in positive
+                axisA: CANNON.Vec3.UNIT_X,
+                axisB: CANNON.Vec3.UNIT_X,
+                angle: Math.PI/4,
+                twistAngle: Math.PI/4
+              });
+
+              world.addConstraint(joint);
+            }
+            for (var i = 0; i < num; i++){
+
+                //var geo = new THREE.BoxGeometry(1, 0.2, 0.2);
+                var mesh = new THREE.Mesh(obj, material);
+                mesh.castShadow = true;
+                scene.add(mesh);
+                shapes2.push(mesh);
+
+                let shape = new CANNON.Box(new CANNON.Vec3(5, 0.5, 0.5));
+                let body = new CANNON.Body({
+                  mass: 1
+                });
+                body.addShape(shape);
+                body.position.set((i * 1)-10, 10, 0);
+                world.addBody(body);
+                bodies2.push(body);
+            }
+
+            for (let i = 0; i < num - 1; i++){
+                let joint = new CANNON.ConeTwistConstraint(bodies2[i], bodies2[i+1], {
+                  pivotA: new CANNON.Vec3(-5,0,0),//midpoint of body A in negative
+                  pivotB: new CANNON.Vec3(5,0,0),//midpoint of body B in positive
+                  axisA: CANNON.Vec3.UNIT_X,
+                  axisB: CANNON.Vec3.UNIT_X,
+                  angle: Math.PI/4,
+                  twistAngle: Math.PI/4
+                });
+
+                world.addConstraint(joint);
+              }
+      }
+
+      function randomImpulse(b){
+        bodies[b].applyImpulse (new CANNON.Vec3(0,randomNum(100),0), bodies[b].position);
+        bodies2[b].applyImpulse (new CANNON.Vec3(0,randomNum(100),0), bodies2[b].position);
+      }
+      function animate() {
+
+          requestAnimationFrame( animate );
+          updatePhysics();
+          camera.lookAt(new THREE.Vector3(0, 6, 0));
+
+          //camera.position.y = 1000;
+          camera.position.y = 50;
+          camera.position.x = 40 * Math.cos( angle );
+          camera.position.z = 40 * Math.sin( angle );
+          angle += 0.001;
+
+          render();
+
+      }
+
+      function updatePhysics() {
+
+          // Step the physics world
+          world.step(timeStep);
+          // Copy coordinates from Cannon.js to Three.js
+          for (var i = 0; i < shapes.length; i++) {
+
+            shapes[i].position.copy(bodies[i].position);
+            shapes[i].quaternion.copy(bodies[i].quaternion);
+            shapes2[i].position.copy(bodies2[i].position);
+            shapes2[i].quaternion.copy(bodies2[i].quaternion);
+          }
+
+          c++;
+
+          if(c % 60 == 0){
+            randomImpulse(randomNum(10));
+          }
+          if(c % 180 == 0){
+            for (var i = 0; i < bodies.length; i++) {
+              var dis = new THREE.Vector3(0 - bodies[i].position.x, 0 - bodies[i].position.y, 0 - bodies[i].position.z);
+              bodies[i].applyImpulse(dis, bodies[i].position);
+              var dis2 = new THREE.Vector3(0 - bodies2[i].position.x, 0 - bodies2[i].position.y, 0 - bodies2[i].position.z);
+              bodies2[i].applyImpulse(dis2, bodies2[i].position);
+            }
+          }
+
+      }
+
+      function render() {
+        if(c % 3000 == 0){
+          //window.location.reload();
+          //window.location.replace(randomNum(3) + ".html");
+        }
+          renderer.render( scene, camera );
+          //cannonDebug.update();
+      }
+
+    </script>
+  </body>
+</html>

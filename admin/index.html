@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Admin</title>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="admin.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <header class="a-bar">
+    <span class="a-title">Admin</span>
+    <nav class="a-tabs" role="tablist">
+      <button type="button" role="tab" data-tab="projects">Projects</button>
+      <button type="button" role="tab" data-tab="info">Info</button>
+      <button type="button" role="tab" data-tab="site">Site</button>
+      <button type="button" role="tab" data-tab="graph">Graph</button>
+    </nav>
+    <nav class="a-actions">
+      <button type="button" data-action="connect">Connect folder</button>
+      <button type="button" data-action="reload">Reload</button>
+      <a href="../" target="_blank" rel="noopener">Open site</a>
+      <button type="button" data-action="save">Saved</button>
+    </nav>
+  </header>
+
+  <main id="main" class="a-main"></main>
+
+  <footer class="a-bar a-foot">
+    <span data-status="where"></span>
+    <span data-status="msg"></span>
+  </footer>
+</body>
+</html>

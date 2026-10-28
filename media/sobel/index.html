@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="description" content="a default template by office ca" />
+		<link rel="stylesheet" href="./style.css">
+		<title>canvas-boilerplate</title>
+		<script>
+			function onMetadata() {
+					window.top?.postMessage("genart:metadata:" + JSON.stringify(window.METADATA), "*")
+			}
+			function onDone() {
+					window.top?.postMessage("genart:done", "*"),
+					window.onImageRendered && window.onImageRendered()
+			}
+			function random_hash() {
+					var t = "0123456789abcdef";
+					let n = "0x";
+					for (let e = 64; 0 < e; --e)
+							n += t[Math.floor(Math.random() * t.length)];
+					return n
+			}
+			window.METADATA = {};
+			class Random {
+					seed;
+					decimals;
+					constructor(e, t=3) {
+							this.seed = parseInt(e.slice(0, 16), 16),
+							this.decimals = t
+					}
+					random_dec() {
+							return this.seed ^= this.seed << 13,
+							this.seed ^= this.seed >> 17,
+							this.seed ^= this.seed << 5,
+							(this.seed < 0 ? 1 + ~this.seed : this.seed) % 10 ** this.decimals / 10 ** this.decimals
+					}
+					random_between(e, t) {
+							return e + (t - e) * this.random_dec()
+					}
+					random_int(e, t) {
+							return Math.floor(this.random_between(e, t + 1))
+					}
+					random_choice(e) {
+							return e[Math.floor(this.random_between(0, .99 * e.length))]
+					}
+			}
+	</script>
+	<script id=genart-options>
+			const options = {
+					"hash": "0xef986806195e056169aaf3de67406c4274e34296f5bb2193eab6882534cb9030",
+					"tokenId": "3000400002",
+					"pixelDensity": 2,
+					"isRenderer": false
+			}
+	</script>
+	</head>
+	<body>
+		<h1 id="stats"></h1>
+		<script type="module" src="sobel-gen-final.js"></script>
+	</body>
+</html>

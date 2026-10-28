@@ -1,0 +1,65 @@
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #ff6dff;
+  background-image: -webkit-gradient(#ff6dff,#fff76d);
+  /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+  background-image: -webkit-linear-gradient(#ff6dff,#fff76d);
+  /* Firefox 3.6 - 15 */
+  background-image: -moz-linear-gradient(#ff6dff,#fff76d);
+  /* Opera 11.1 - 12 */
+  background-image: -o-linear-gradient(#ff6dff,#fff76d);
+  /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+  background-image: linear-gradient(#ff6dff,#fff76d);
+
+}
+#navbar {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  padding-top: 80px;
+}
+#navbar ul {
+  padding: 0;
+  list-style-type: none;
+}
+#navbar li {
+  display:inline-block;
+}
+#navbar a {
+  display: inline-block;
+  font-size: 12pt;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  word-break: keep-all;
+}
+#navbar a:hover {
+  color:#fff;
+}
+canvas:hover {
+  cursor: move;
+}
+
+#edit {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 8px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #555;
+  opacity: 0.5;
+}
+#edit:hover {
+  opacity: 1;
+}
+#header {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+  font-size: 30pt;
+}

@@ -1,0 +1,43 @@
+/* Cascade layers. Later layers win, so a theme only needs to redefine tokens. */
+@layer tokens, base, components, theme;
+
+@layer tokens {
+  :root {
+    /* Type */
+    --font-mono: "Cossette Texte", sans-serif;
+    --font-text: "Cossette Texte", sans-serif;
+    --fs-label: 10pt;
+    --fs-ui: 10pt;
+    --fs-text: 16pt;
+    --fs-title: 12pt;
+    --tracking: 0.06em;
+
+    /* Surfaces and ink */
+    --paper: #000000;
+    --paper-2: #000000;
+    --ink: #ffffff;
+    --ink-2: #ffffff;
+    --ink-3: #adadad;
+    --rule: #ffffff;
+    --rule-soft: #c4c1b7;
+    --select: #ff0000;
+    --projector-bg: #000000;
+
+    /* Socket and wire types */
+    --type-collection: #ff0000;
+    --type-project: #ff0000;
+    --type-media: #ff0000;
+    --type-number: #ff0000;
+    --type-text: #ff0000;
+
+    /* Metrics */
+    --bar-h: 38px;
+    --row-h: 28px;
+    --pad: 8px;
+    --node-w: 192px;
+    --socket: 9px;
+    --wire-w: 2px;
+    --console-w: 640px;
+    --fade: 450ms;
+  }
+}

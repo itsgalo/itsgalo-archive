@@ -1,0 +1,34 @@
+{
+  "title": "Galo Canizares :: Project Archive",
+  "body": [
+    "His work interrogates the emerging sociotechnical effects of code, screens, and software culture. He is fascinated by the strange behaviors and aesthetics unique to computing and digital media, an interest that emerged as a kid playing with Flash and other painting software. In 2019, Galo published a collection of essays on computation, art, and design titled Digital Fabrications: Designer Stories for a Software-Based Planet.",
+    "Many of Galo’s artworks try to leverage computing to produce visually compelling and layered effects. They are often animated or use some kind of real-time motion like simulated physics. Other recurring themes are limited color palettes, dithering, and low-res graphics, concepts and techniques tied to the history of computer-based art.",
+    "He is the founder and co-director of the design research collaborative, office ca."
+  ],
+  "fields": {
+    "Currently": "Lexington, KY"
+  },
+  "links": [
+    {
+      "label": "Email",
+      "href": "mailto:galo_c@alum.mit.edu"
+    },
+    {
+      "label": "CV",
+      "href": "https://docs.google.com/document/d/1LTrEaeG0PRoleMxAFANXepv0ManzBNaHCe9fyBAVmuQ/edit?usp=sharing"
+    },
+    {
+      "label": "Office",
+      "href": "https://officeca.com/#/"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "media/info/Headshot2.jpg",
+      "caption": "Portrait",
+      "fit": "contain"
+    }
+  ],
+  "summary": "Galo Canizares (b. 1989, Madrid) is an artist, designer, writer, and educator working across various creative fields from architecture to digital art to experimental software. He is currently assistant professor of architecture at the University of Kentucky’s College of Design where he teaches courses on visualization and representation."
+}

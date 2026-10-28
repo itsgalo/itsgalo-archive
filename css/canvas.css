@@ -1,0 +1,26 @@
+@layer components {
+  .graph {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .graph.is-panning { cursor: grabbing; }
+
+  .graph-world {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    transform-origin: 0 0;
+    will-change: transform;
+  }
+
+  .graph-hidden .graph {
+    visibility: hidden;
+    pointer-events: none;
+  }
+}

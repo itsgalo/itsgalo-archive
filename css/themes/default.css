@@ -1,0 +1,5 @@
+/* Default theme: uses the tokens as defined in tokens.css.
+   Copy this file, redefine any token inside @layer theme, and set "theme" in data/site.json. */
+@layer theme {
+  :root { }
+}

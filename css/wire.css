@@ -1,0 +1,37 @@
+@layer components {
+  .graph-wires {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    overflow: visible;
+    pointer-events: none;
+  }
+  .graph-wires[data-style="orthogonal"] { shape-rendering: crispEdges; }
+
+  .wire { --wire: var(--ink); }
+  .wire[data-type="collection"] { --wire: var(--type-collection); }
+  .wire[data-type="project"]    { --wire: var(--type-project); }
+  .wire[data-type="media"]      { --wire: var(--type-media); }
+  .wire[data-type="number"]     { --wire: var(--type-number); }
+  .wire[data-type="text"]       { --wire: var(--type-text); }
+
+  .wire-line {
+    fill: none;
+    stroke: var(--wire);
+    stroke-width: var(--wire-w);
+    vector-effect: non-scaling-stroke;
+  }
+  .wire-hit {
+    fill: none;
+    stroke: transparent;
+    stroke-width: 10px;
+    pointer-events: stroke;
+    cursor: pointer;
+  }
+
+  .wire.is-selected .wire-line { stroke-dasharray: 4 3; stroke-width: calc(var(--wire-w) * 1.6); }
+  .wire.is-temp .wire-line { stroke-dasharray: 2 3; }
+  .wire.is-temp .wire-hit { pointer-events: none; }
+}

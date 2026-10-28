@@ -1,0 +1,2807 @@
+{
+  "projects": [
+    {
+      "id": "space-oddity",
+      "title": "Space Oddity",
+      "year": 2016,
+      "tags": [
+        "performance",
+        "installation"
+      ],
+      "summary": "Public performance at the Knowlton School of Architecture.",
+      "fields": {
+        "Location": "Columbus, OH"
+      },
+      "body": [
+        "Life-size diagram of a sphere-cube."
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "media/space-oddity/01.jpg",
+          "fit": "contain",
+          "caption": "01"
+        },
+        {
+          "type": "image",
+          "src": "media/space-oddity/02.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/space-oddity/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/space-oddity/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/space-oddity/05.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/space-oddity/06.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/space-oddity/07.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/space-oddity/08.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/space-oddity/09.gif",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "id": "air-operations",
+      "title": "Air Operations",
+      "year": 2017,
+      "tags": [
+        "installation",
+        "performance"
+      ],
+      "summary": "Public performance at the Knowlton School of Architecture.",
+      "media": [
+        {
+          "type": "image",
+          "src": "media/air-operations/01.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/air-operations/02.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/air-operations/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/air-operations/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/air-operations/05.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/air-operations/06.jpg",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Location": "Columbus, OH"
+      },
+      "body": [
+        "Inflatable series of objects based on minimal geometries."
+      ]
+    },
+    {
+      "id": "field-guide",
+      "title": "Field Guide to Martian Landscapes",
+      "year": 2017,
+      "tags": [
+        "research",
+        "installation"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "media/field-guide/06.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/field-guide/07.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/field-guide/08.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/field-guide/01.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/field-guide/02.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/field-guide/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/field-guide/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/field-guide/05.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "video",
+          "src": "media/field-guide/video.mp4",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Location": "Kent, OH"
+      },
+      "links": [
+        {
+          "label": "PDF",
+          "href": "https://www.uahirise.org/epo/made-with-hirise/canizares/Canizares_Field_Guide2017_.pdf"
+        },
+        {
+          "label": "Interview",
+          "href": "https://www.uahirise.org/epo/made-with-hirise/canizares/"
+        }
+      ],
+      "summary": "Research project on planetary representation.",
+      "body": [
+        "The Field Guide to Martian Landscapes is a taxonomy and design project that translates real-world surface data from Mars into standardized graphics and 3D models."
+      ]
+    },
+    {
+      "id": "still-lives",
+      "title": "Still Lives",
+      "year": 2017,
+      "tags": [
+        "research"
+      ],
+      "summary": "Research on soft body digital simulations.",
+      "media": [
+        {
+          "type": "image",
+          "src": "media/still-lives/01.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/still-lives/02.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/still-lives/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/still-lives/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/still-lives/05.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/still-lives/06.jpg",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "id": "digital-yet",
+      "title": "Are We Digital Yet?",
+      "year": 2017,
+      "tags": [
+        "research"
+      ],
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/digital-yet/1-2.html",
+          "fit": "cover"
+        }
+      ],
+      "links": [
+        {
+          "label": "Live View",
+          "href": "media/digital-yet/index.html"
+        }
+      ],
+      "summary": "Study of digital dioramas in a web browser."
+    },
+    {
+      "id": "theory-machina",
+      "title": "Theory Machina",
+      "year": 2017,
+      "tags": [
+        "research",
+        "software"
+      ],
+      "summary": "A twitter bot that theorizes architecture.",
+      "media": [
+        {
+          "type": "image",
+          "src": "media/theory-machina/01.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/theory-machina/02.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/theory-machina/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/theory-machina/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/theory-machina/05.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/theory-machina/06.jpg",
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "label": "Link",
+          "href": "https://x.com/TheoryMachina"
+        }
+      ]
+    },
+    {
+      "id": "series-cubes",
+      "title": "A Series of Cubes",
+      "year": 2017,
+      "tags": [
+        "research",
+        "installation"
+      ],
+      "summary": "A collection of geometric sculptures.",
+      "media": [
+        {
+          "type": "video",
+          "src": "media/series-cubes/video2.mp4",
+          "fit": "contain"
+        },
+        {
+          "type": "video",
+          "src": "media/series-cubes/video3.mp4",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/series-cubes/01.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/series-cubes/02.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/series-cubes/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/series-cubes/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "video",
+          "src": "media/series-cubes/video1.mov",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Exhibited": "Chicago, IL"
+      }
+    },
+    {
+      "id": "for-scale",
+      "title": "For Scale",
+      "year": 2018,
+      "tags": [
+        "software",
+        "videogame",
+        "real-time"
+      ],
+      "summary": "Real-time videogame installation.",
+      "media": [
+        {
+          "type": "video",
+          "src": "media/for-scale/00.mp4",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/01.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/02.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/05.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/06.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/07.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/08.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/09.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/10.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/11.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/12.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/13.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/for-scale/portrait.gif",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Location": "A+D Museum, Los Angeles"
+      },
+      "body": [
+        "For Scale(TM) is an interactive game that turns a home-decor generator into a chaotic simulation."
+      ]
+    },
+    {
+      "id": "malevich",
+      "title": "Malevi.ch",
+      "year": 2018,
+      "tags": [
+        "software",
+        "real-time"
+      ],
+      "summary": "An online 2D drawing app.",
+      "media": [
+        {
+          "type": "video",
+          "src": "media/malevich/video.mp4",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/malevich/01.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/malevich/02.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/malevich/03.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/malevich/04.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/malevich/05.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/malevich/06.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/malevich/07.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/malevich/08.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/malevich/09.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/malevich/10.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/malevich/11.png",
+          "fit": "contain"
+        },
+        {
+          "type": "video",
+          "src": "media/malevich/diagram01.mp4",
+          "fit": "contain"
+        },
+        {
+          "type": "video",
+          "src": "media/malevich/diagram02.mp4",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Location": "Online"
+      },
+      "links": [
+        {
+          "label": "Live View",
+          "href": "https://www.malevi.ch/"
+        }
+      ]
+    },
+    {
+      "id": "lissitzky",
+      "year": 2018,
+      "tags": [
+        "software",
+        "real-time"
+      ],
+      "summary": "An online 3D drawing app.",
+      "media": [
+        {
+          "type": "image",
+          "src": "media/lissitzky/01.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/lissitzky/02.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/lissitzky/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/lissitzky/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/lissitzky/05.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/lissitzky/06.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/lissitzky/07.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/lissitzky/08.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/lissitzky/09.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/lissitzky/10.jpg",
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "label": "Live View",
+          "href": "http://lissitzky.xyz/"
+        }
+      ],
+      "title": "Lissitzky"
+    },
+    {
+      "id": "noodle-soup",
+      "title": "Noodle Soup",
+      "year": 2018,
+      "tags": [
+        "installation",
+        "public art"
+      ],
+      "summary": "Temporary installation, winner of the 2018 Ragdale Ring Competition.",
+      "media": [
+        {
+          "type": "image",
+          "src": "media/noodle-soup/00.jpg",
+          "caption": "00",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/noodle-soup/01.jpg",
+          "caption": "01",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/noodle-soup/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/noodle-soup/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/noodle-soup/05.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/noodle-soup/06.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/noodle-soup/08.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/noodle-soup/10.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/noodle-soup/12.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/noodle-soup/13.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "http://ragdalenoodles.co/",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Location": "Lake Forest, IL"
+      },
+      "links": [
+        {
+          "label": "App",
+          "href": "http://ragdalenoodles.co/"
+        },
+        {
+          "label": "Office",
+          "href": "https://officeca.com/#/project/nsoup"
+        }
+      ],
+      "body": [
+        "Noodle Soup is an architectural scale interface. Conceived as an interactive playscape, it is flexible enough for a range of outdoor performances, and picturesque enough for it to seamlessly integrate into the wooded scenery of Lake Forest. It features a set of fuzzy, fixed structures (walls which peel up from the lawn) around which are soft, linear, pliable pieces of furniture (noodles). The soft elements can interact with the hard structures to serve functional purposes such as seating, but they can also act as oversized toys, freely configurable in a variety of ways. Conceptually, Noodle Soup seeks to empower the individual’s artistic agency as well as blend whimsey, playfulness, and interaction into a transformable constructed landscape with both predictable and unpredictable results."
+      ]
+    },
+    {
+      "id": "demo-scenes",
+      "title": "Assorted Demo Scenes",
+      "year": 2019,
+      "tags": [
+        "exhibition"
+      ],
+      "summary": "Solo show at the Banvard Gallery in Columbus, OH",
+      "fields": {
+        "Location": "Columbus, OH",
+        "Status": "Archived"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "media/demo-scenes/01.jpg",
+          "poster": "media/field-apparatus/poster.jpg",
+          "caption": "01",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/demo-scenes/02.jpg",
+          "fit": "contain",
+          "caption": "02"
+        },
+        {
+          "type": "image",
+          "src": "media/demo-scenes/03.jpg",
+          "caption": "03",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/demo-scenes/04.jpg",
+          "caption": "04",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/demo-scenes/05.jpg",
+          "caption": "05",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/demo-scenes/06.jpg",
+          "fit": "contain",
+          "caption": "06"
+        },
+        {
+          "type": "image",
+          "src": "media/demo-scenes/07.jpg",
+          "caption": "07",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/demo-scenes/08.jpg",
+          "caption": "08",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/demo-scenes/09.jpg",
+          "caption": "09",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/demo-scenes/10.jpg",
+          "caption": "10",
+          "fit": "contain"
+        }
+      ],
+      "body": [
+        "Assorted Demo Scenes is a series of models, LCD screens, wires, and motors running physics simulations, executable scripts, and browser-based environments centered around the paradigm of the demo scene as a new form of knowledge. As software continues to be ever updated, the demo and tutorial have become the de-facto form of learning new tools and exhibiting their potentials. At times we have witnessed the demo become the final artifact and be mined for qualities that can be reframed as novel architectural effects.",
+        "A boolean operation, a loft, a group of extruded curves, a pile of rigid bodies, a polygonal mesh, a fluid simulation, a robot choreography: these are today’s architectural elements. They come into being through knowledge shared on YouTube, Vimeo, Instagram, online forums, and various Google Search results by both professionals and amateurs. The task of the architect thus becomes not only to master these techniques, but also to use them to augment existing disciplinary conventions, while at the same acknowledging their limitations, blind spots, and potential flaws."
+      ]
+    },
+    {
+      "id": "digital-fabrications",
+      "title": "Digital Fabrications",
+      "year": 2019,
+      "tags": [
+        "book",
+        "research"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "media/digital-fabrications/00.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/digital-fabrications/01.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/digital-fabrications/02.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/digital-fabrications/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/digital-fabrications/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/digital-fabrications/05.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/digital-fabrications/06.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/digital-fabrications/07.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/digital-fabrications/08.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/digital-fabrications/09.png",
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "label": "Publisher",
+          "href": "https://appliedresearchanddesign.com/product/digital-fabrications"
+        }
+      ],
+      "body": [
+        "Digital Fabrications is a collection of essays and half-true stories about design software and hardware. Each piece expands on emerging trends, devices, foibles, and phenomena engendered by an increased reliance on interactions with interfaces in the discipline. The essays ask, how do we characterize our post-digital design labor? What are the politics of design software? How is architecture adapting to a world largely dependent on platforms and scripts? What are the spatial mechanisms of the internet and VR? Using storytelling techniques, this book accepts that software is everywhere, and narrows in on a few ways it has taken command of our cultural products.",
+        "From the perspective of architectural design, a field traditionally associated with sketching and its own myths of creativity, computers are an essential workplace tool. Projects rely on a wide assortment of software packages and standalone applications, but rarely do architects reflect on the structure of those programs or how they have infiltrated our disciplinary conventions. PDFs and JPGs are as much a part of our vocabulary as plans, sections, and elevations. A drawing today might refer to a rendering, a CAD document, a proprietary BIM file, or anything that describes a project visually. While one way of examining this disciplinary shift might be to re-imagine how these formal conventions are shifting thanks to digital technologies, this collection of essays puts forth another way: to look at the behaviors, collective trends, and oddities emerging as a result of global software proliferation. These stories, featuring Twitter bots, drawing apps, artists, architects, mobile devices, and Martians, reflect on the vital role interfaces play in all aspects of design, and ask what it means to design in the age of software."
+      ]
+    },
+    {
+      "id": "4x4house",
+      "title": "4x4 House",
+      "year": 2019,
+      "tags": [
+        "research",
+        "software",
+        "installation"
+      ],
+      "summary": "Competition entry for the 2019 Home Competition.",
+      "media": [
+        {
+          "type": "image",
+          "src": "media/4x4house/01.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/4x4house/02.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/4x4house/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/4x4house/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/4x4house/05.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/4x4house/06.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/4x4house/07.jpg",
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://officeca.com/#/project/44house",
+          "label": "Office"
+        }
+      ],
+      "fields": {
+        "Location": "Urban Tech Gallery, Lubbock, TX"
+      }
+    },
+    {
+      "id": "web-drawings",
+      "title": "Web Drawings",
+      "year": 2019,
+      "tags": [
+        "research",
+        "software"
+      ],
+      "summary": "A collection of online dioramas.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/web-drawings/1.1/index.html",
+          "fit": "cover"
+        },
+        {
+          "type": "iframe",
+          "src": "media/web-drawings/1.2/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/web-drawings/04.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/web-drawings/05.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/web-drawings/06.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/web-drawings/07.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/web-drawings/08.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/web-drawings/09.png",
+          "fit": "contain"
+        }
+      ],
+      "body": [
+        "Framed as a demo of the Three.JS 3D scripting library, these scenes showcase the potential of advanced rendering and simulation tools for web browsers. But they also illustrate how 3D space in these environments operates: objects have relative coordinate systems (shown as red, green, and blue lines), physics simulations require a redundant “rigid body” envelope (shown as green wireframes), and cameras require a specific frustum of vision to be declared (shown as a trapezoidal volume). The images reveal the hidden layers of virtual Euclidean space as they currently manifest in 3D modeling, gaming, and visual effects environments. This project asks: what can these hidden mathematical layers offer architecture with regard to the construction of virtual space, and how can an emphasis on 2D, 3D, and 4D vectors compliment ongoing discourses of imaging as a representation technique."
+      ]
+    },
+    {
+      "id": "our-paper-space",
+      "title": "Our Paper Space",
+      "year": 2020,
+      "tags": [
+        "installation",
+        "software",
+        "real-time"
+      ],
+      "summary": "A collaborative web drawing app and installation.",
+      "media": [
+        {
+          "type": "image",
+          "src": "media/our-paper-space/01.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/our-paper-space/02.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/our-paper-space/03.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/our-paper-space/04.png",
+          "fit": "contain"
+        },
+        {
+          "type": "video",
+          "src": "media/our-paper-space/v2.mov",
+          "fit": "contain"
+        },
+        {
+          "type": "video",
+          "src": "media/our-paper-space/video.mp4",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Location": "SAIC Gallery, Chicago, IL"
+      }
+    },
+    {
+      "id": "peopling-studio",
+      "title": "Peopling Studio",
+      "year": 2020,
+      "tags": [
+        "research",
+        "software"
+      ],
+      "summary": "A repository for diverse 3D models.",
+      "media": [
+        {
+          "type": "video",
+          "src": "media/peopling-studio/video.mov",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/peopling-studio/01.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/peopling-studio/02.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/peopling-studio/03.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/peopling-studio/04.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/peopling-studio/05.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/peopling-studio/06.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/peopling-studio/07.jpg",
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "label": "Live View",
+          "href": "https://peopling.studio/"
+        }
+      ]
+    },
+    {
+      "id": "someshapes",
+      "title": "Some Shapes",
+      "year": 2020,
+      "tags": [
+        "research",
+        "software",
+        "real-time"
+      ],
+      "summary": "An online stacking toy.",
+      "media": [
+        {
+          "type": "video",
+          "src": "media/someshapes/video.mov",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someshapes/01.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someshapes/02.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someshapes/03.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someshapes/04.png",
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "label": "Live View",
+          "href": "http://someshap.es/"
+        }
+      ]
+    },
+    {
+      "id": "ghosts",
+      "title": "Ghosts",
+      "year": 2021,
+      "tags": [
+        "research",
+        "generative"
+      ],
+      "summary": "A series of 144 procedurally-generated architectural pavilions.",
+      "media": [
+        {
+          "type": "image",
+          "src": "media/ghosts/001.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/ghosts/009.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/ghosts/022.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/ghosts/042.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/ghosts/061.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/ghosts/083.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/ghosts/blank.gif",
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://objkt.com/users/tz1Rb8qvYAdF4r2iiYXbukYvbuyHrDwG1f3x/created"
+        }
+      ]
+    },
+    {
+      "id": "heatmap",
+      "title": "Heatmap",
+      "year": 2021,
+      "tags": [
+        "research",
+        "software",
+        "real-time"
+      ],
+      "summary": "An online drawing app.",
+      "media": [
+        {
+          "type": "video",
+          "src": "media/heatmap/video1.mp4",
+          "fit": "contain"
+        },
+        {
+          "type": "video",
+          "src": "media/heatmap/video2.mp4",
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "label": "Live View",
+          "href": "http://heatmap.ink/"
+        }
+      ]
+    },
+    {
+      "id": "islands",
+      "title": "Islands",
+      "year": 2021,
+      "tags": [
+        "software",
+        "real-time"
+      ],
+      "summary": "An online drawing app.",
+      "media": [
+        {
+          "type": "video",
+          "src": "media/islands/video.mp4",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/islands/01.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/islands/02.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/islands/03.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/islands/04.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/islands/05.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/islands/06.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/islands/07.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/islands/08.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/islands/09.jpg",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Live View",
+          "href": "http://islands.ink/"
+        }
+      ]
+    },
+    {
+      "id": "someblobs",
+      "title": "Some Blobs",
+      "year": 2021,
+      "tags": [
+        "software",
+        "real-time"
+      ],
+      "summary": "A self-assembling painting simulation.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "https://www.someblob.art/",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/01.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/02.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/03.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/04.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/05.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/06.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/07.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/08.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/09.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/10.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/11.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/12.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/13.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/14.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/15.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/someblobs/16.png",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Live View",
+          "href": "https://www.someblob.art/"
+        }
+      ]
+    },
+    {
+      "id": "screenspace-studies",
+      "title": "Screenspace Studies",
+      "year": 2021,
+      "tags": [
+        "generative",
+        "software"
+      ],
+      "summary": "A collection of digital paintings made with custom software built with Processing.",
+      "media": [
+        {
+          "type": "image",
+          "src": "media/screenspace-studies/follies-study-023.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/screenspace-studies/follies-study-021.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/screenspace-studies/follies-study-013.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/screenspace-studies/strata-240920-04.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/screenspace-studies/strata-220612-02.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/screenspace-studies/candy-241116-01.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/screenspace-studies/column-211108-02.gif",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "java(Processing)/GIF"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://objkt.com/@itsgalo/collections/created"
+        }
+      ]
+    },
+    {
+      "id": "silica",
+      "title": "SILICA",
+      "year": 2021,
+      "tags": [
+        "software",
+        "generative"
+      ],
+      "summary": "A collection of digital paintings made with custom software built with Processing.",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F26.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F14.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F28.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F47.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F24.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F49.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F9.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F43.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F20.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F40.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F22.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F12.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F33.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F11.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fitsgalo%2Fsilica%2F50.gif",
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://verse.works/series/silica-by-itsgalo",
+          "label": "Collection"
+        }
+      ],
+      "body": [
+        "SILICA is a series of 50 animated digital paintings made with a custom real-time painting software that builds on the tradition of color field painting. Each piece is uniquely generated through a stochastic generative process involving simulated paintbrushes, limited colour palettes, video feedback, and graphics quantization algorithms. The brush strokes repeat themselves continuously producing layered colour mixtures which bleed together and are then quantized and separated into limited colors. Like halftone images, the resulting texture is a kind of primer on digital colour theory, where dithered pixels produce the illusion of a mixed colour. The animations loop seamlessly and are made of 90 unique individual still frames. Each animation is formatted as a 720x960 GIF.S",
+        "SILICA is part of the group exhibition Imperfections. Through a series of long form projects by generative artists, this exhibition explores the role imperfections play in great artworks, and how the pursuit of artistic perfection appears to be a paradoxical endeavour."
+      ],
+      "fields": {
+        "Medium": "javascript/GIF",
+        "Exhibited": "Cromwell Place Gallery, London"
+      }
+    },
+    {
+      "id": "jugglers",
+      "title": "JUGGLERS",
+      "year": 2021,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative sketches made from noisy self-drawing gestures.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/jugglers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/jugglers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/jugglers"
+        }
+      ]
+    },
+    {
+      "id": "stalkers",
+      "title": "STALKERS",
+      "year": 2021,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated painting made by aimless wanderers in a dithered world.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/stalkers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/stalkers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/stalkers"
+        }
+      ]
+    },
+    {
+      "id": "loopers",
+      "title": "LOOPERS",
+      "year": 2021,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated painting made from gestural lines traveling through time.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/loopers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/loopers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/loopers"
+        }
+      ]
+    },
+    {
+      "id": "blobbers",
+      "title": "BLOBBERS",
+      "year": 2021,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated painting made out of throbbing blobbers.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/blobbers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/blobbers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/blobbers"
+        }
+      ]
+    },
+    {
+      "id": "strokers",
+      "title": "STROKERS",
+      "year": 2021,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated painting made from noisy gestures in a flow field.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/strokers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/strokers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/strokers"
+        }
+      ]
+    },
+    {
+      "id": "dancers",
+      "title": "DANCERS",
+      "year": 2021,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated painting made from dancing pixels in a rhythmic trance.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/dancers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/dancers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/dancers"
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "title": "Feedback Landscapes",
+      "year": 2022,
+      "tags": [
+        "software",
+        "generative"
+      ],
+      "summary": "A collection of digital paintings made with custom software built with Processing.",
+      "media": [
+        {
+          "type": "video",
+          "src": "media/feedback/01.mov",
+          "fit": "contain"
+        },
+        {
+          "type": "video",
+          "src": "media/feedback/02.mov",
+          "fit": "contain"
+        },
+        {
+          "type": "video",
+          "src": "media/feedback/03.mov",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript/mp4"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://www.raster.art/artwork/feedback-landscapes-by-galo-canizares?sort=date-desc"
+        }
+      ]
+    },
+    {
+      "id": "crashers",
+      "title": "CRASHERS",
+      "year": 2022,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated painting made from fluid pixels in a simplex flow field feedback loop.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/crashers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/crashers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/crashers"
+        }
+      ]
+    },
+    {
+      "id": "debuggers",
+      "title": "DEBUGGERS",
+      "year": 2022,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Interactive generative painting made from points and lines in a stretchy pixelated mesh. ",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/debuggers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/debuggers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/debuggers"
+        }
+      ]
+    },
+    {
+      "id": "samplers",
+      "title": "SAMPLERS",
+      "year": 2022,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Interactive generative painting made from points and lines in a stretchy pixelated mesh. ",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/samplers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/samplers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/samplers"
+        }
+      ]
+    },
+    {
+      "id": "scribblers",
+      "title": "SCRIBBLERS",
+      "year": 2022,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated drawing inspired by mindless doodling and low-res CAD graphics.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/scribblers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/scribblers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/scribblers"
+        }
+      ]
+    },
+    {
+      "id": "voyagers",
+      "title": "VOYAGERS",
+      "year": 2022,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated painting made from looping gestures in a virtual void.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/voyagers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/voyagers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/voyagers"
+        }
+      ],
+      "body": [
+        "Voyagers is an exploration of automated gestures and screenspace layering effects. Each brush stroke sweeps through the canvas leaving a trail of color that either disappears or mixes with adjacent colors. The image slowly builds up to achieve an equilibrium between the rhythm of the gestures and the interaction of color values. These colors are quantized and dithered to produce chunky, textured, blocks of light that reify the materiality of the screen and the pixel. Two aspect ratios are possible, each with its own material relationship to screen-based work, 1:1 and 4:3 (vertical)."
+      ]
+    },
+    {
+      "id": "computers",
+      "title": "COMPUTERS",
+      "year": 2022,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated painting made from pixel array computations and classic noise algorithms.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/computers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/computers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/computers"
+        }
+      ],
+      "body": [
+        "COMPUTERS is a meditation on the aesthetics of computing in all of its forms. It recalls the types of computation required to build temples, write complex texts, weave detailed textiles, and program computer games. Pixels have always existed in some form or another, before and after the screen. Every iteration of COMPUTERS suggests that computation is both contemporary and ancient."
+      ]
+    },
+    {
+      "id": "surfers",
+      "title": "SURFERS",
+      "year": 2022,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "SURFERS is a generative animated painting made from pixel array computations and modulo functions. It is an exploration of various dithering effects and the rhythmic qualities of pixel transformations.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/surfers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/surfers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/surfers"
+        }
+      ]
+    },
+    {
+      "id": "regolith",
+      "title": "REGOLITH",
+      "year": 2023,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated painting made with javascript and GLSL shaders.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/regolith/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/regolith/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://networked.art/itsgalo/regolith-dust"
+        }
+      ]
+    },
+    {
+      "id": "printers",
+      "title": "PRINTERS",
+      "year": 2023,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated artwork made using shader feedback and pixel quantization.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/printers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/printers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript",
+        "Editions": "256"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/printers"
+        }
+      ],
+      "body": [
+        "PRINTERS is a study of rasterized type and bitmap imagery. It builds on the tradition of ASCII and typographic art, blending dithering techniques with chunky, pixelated glyphs. Here, the movement and blending of color is interpreted as a monochrome composition of recognizable pixel patterns taken from legacy video games and operating systems. What appears as typography is actually a custom set of 8x8 pixel patterns rendered in a GLSL shader that produces a conceptual tension between low-res graphics and high-power GPU computation.",
+        "PRINTERS is designed to be both viewed on a screen and printed on office paper with a home/office inkjet printer."
+      ]
+    },
+    {
+      "id": "wrappers",
+      "title": "WRAPPERS",
+      "year": 2023,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated artwork made using shader feedback and pixel quantization.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/wrappers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/wrappers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript",
+        "Editions": "256"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://killedbyapixel.github.io/fxhashArchive/#/token/wrappers"
+        }
+      ],
+      "body": [
+        "WRAPPERS is a study of virtual surfaces and textures. It explores the tension between hard and soft forms and parallel projection, where the illusion of perspective is flattened into a highly geometric composition. These geometries feature a flowing texture that runs infinitely, reflecting on the endless nature of virtual space. The project blends together imagery from early computer terminals, video games, and ascii art to produce a dynamic, intricate, visual experience."
+      ]
+    },
+    {
+      "id": "wrappers-copy",
+      "title": "SOBEL",
+      "year": 2023,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated artwork made using shader feedback and pixel quantization.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/sobel/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/sobel/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://opensea.io/collection/sobel-by-itsgalo"
+        }
+      ]
+    },
+    {
+      "id": "crusts",
+      "title": "CRUSTS",
+      "year": 2022,
+      "tags": [
+        "software",
+        "generative"
+      ],
+      "summary": "A collection of digital paintings made with custom software built with Processing.",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://raw2.seadn.io/ethereum/0x9078f4fa1aeaa8345ba29117ff4a494267ce4305/b8eab6a3fe6ede99dfa1768ab9b1e0b8.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://raw2.seadn.io/ethereum/0x9078f4fa1aeaa8345ba29117ff4a494267ce4305/be6ee2ff6d26fa660b7ea3435a260646.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://raw2.seadn.io/ethereum/0x9078f4fa1aeaa8345ba29117ff4a494267ce4305/79c6ae329e2248a669bfba2e1b195c9b.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://raw2.seadn.io/ethereum/0x9078f4fa1aeaa8345ba29117ff4a494267ce4305/349d3b8e4c7745110d777da10f71745c.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://raw2.seadn.io/ethereum/0x9078f4fa1aeaa8345ba29117ff4a494267ce4305/f55908339f2c4787567912e93c355550.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://raw2.seadn.io/ethereum/0x9078f4fa1aeaa8345ba29117ff4a494267ce4305/b50b665418447fdc85a56bfb3e40e462.gif",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript/GIF"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://opensea.io/collection/crusts"
+        }
+      ]
+    },
+    {
+      "id": "raster",
+      "title": "RASTER",
+      "year": 2022,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative software artwork.",
+      "body": [
+        "An exploration of a technical concept I call \"pixel overpainting.\"",
+        "Rasterized procedural brush strokes with low transparency slowly layer themselves over each other in a rhythmic loop until they achieve colorful equilibrium. They continue to overpaint themselves endlessly. The resulting color mixtures are then quantized and dithered to separate them into patches of pixels that recall the discrete materiality of the screen: a strictly digital variation on color field painting. The resulting texture is not a skeuomorphic grain but an overt reference to the universe of screens that surround us every day. Electric light arranged in a grid, fluttering and flickering everywhere all the time.",
+        "Please allow a few minutes for the colors to reach equilibrium. For best results use Chrome browser with enabled webGL and hardware acceleration. Though it is encouraged to explore the subtleties in viewing the same pixels on different hardware and software to reflect on the subjectivity of contemporary computer graphics and the materiality of CPUs, GPUs, resolutions, pixel densities, browser APIs, and other medium-specific entropy."
+      ],
+      "fields": {
+        "Medium": "javascript",
+        "Status": "archived",
+        "Editions": "400"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000000.png",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/341000000",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000034.png",
+          "poster": "media/field-apparatus/poster.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/341000034",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000001.png",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/341000001",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000398.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000324.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000050.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000098.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000060.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000200.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000210.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000127.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000298.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://artblocks-mainnet.s3.amazonaws.com/341000198.png",
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.artblocks.io/collection/raster-by-itsgalo",
+          "label": "On-chain"
+        }
+      ]
+    },
+    {
+      "id": "skeuomorphs",
+      "title": "SKEUOMORPHS",
+      "year": 2023,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative software artwork.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/422000013",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/422000125",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/422000000",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/422000278",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/422000003",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/422000007",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/422000023",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/422000030",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/422000044",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript",
+        "Status": "archived",
+        "Editions": "300"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://www.artblocks.io/collection/skeuomorphs-by-itsgalo"
+        }
+      ],
+      "body": [
+        "A skeuomorph is a derivative object that retains ornamental design cues from structures that were necessary in the original. They are used widely in architecture, product design, and perhaps most familiarly in user interfaces. Think: desktop icons like trash cans or notepads. SKEUOMORPHS is a meditation on this digital tradition.",
+        "SKEUOMORPHS picks up where RASTER left off as an another exploration of the materiality of pixels and rasterized imagery. Here the study of pixels narrows in on the shallow depth of on-screen interfaces and the play of low-res figure-ground effects. Moments of skeuomorphism where the 2-dimensional plane of the screen becomes slightly 3-dimensional through beveling or drop-shadows are extracted and used as abstract painterly details. These elements that are typically used to make computation and interfaces more familiar become unfamiliar on the canvas, suggesting the possibility of an aesthetic between abstraction and realism.",
+        "SKEUOMORPHS employs recurring themes and techniques from my art practice: limited color palettes, low-res chunky pixels, dithering, and physics simulation. It uses a specific kind of dithering called R-sequence dither developed by Martin Roberts. Like traditional Bayer matrix-based dithering, this technique produces a patterned image akin to retro video games and early computer screens. In this project, the R-dither pattern results in a woven textile-like texture, which recalls the long relationship between computing and weaving. The canvas negotiates two scales simultaneously: that of the dithered pixel (rendered at 1/1024th of the canvas height) and the simulated particle that acts as a brush stroke (rendered at 1/256th of the canvas height). The two resolutions work together to produce a cohesive texture that is neither pretending to be a retrograde screen nor an analog material but something in between. Similar to RASTER, the goal is to investigate new avenues for digital aesthetics that rely on a combination of historical techniques and innovative practices."
+      ]
+    },
+    {
+      "id": "buffers",
+      "title": "BUFFERS",
+      "year": 2024,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "media": [
+        {
+          "type": "iframe",
+          "src": "media/buffers/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/buffers/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript/GLSL",
+        "Editions": "96"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://www.raster.art/artwork/buffers-by-galo-canizares?sort=date-desc"
+        }
+      ],
+      "body": [
+        "BUFFERS is a meditation on color and movement at the level of the pixel. It continues a line of inquiry that began with RASTER (2022) and SOBEL (2023), works that use looping movements and shader feedback to produce perpetual animated paintings. Caught between the tradition of the screensaver and the infinite animation of a GIF, BUFFERS calls attention to the rhythmic repetition of flickering and dancing pixels that permeate our idle screens."
+      ]
+    },
+    {
+      "title": "BASALT",
+      "year": 2024,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Collection of two series: BASALT GIFs and BASALT RT.",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fcurated-projects%2FItsgalo%2FBASALT%20GIFs%2FBASALT_240320_04.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fcurated-projects%2FItsgalo%2FBASALT%20GIFs%2FBASALT_240320_03.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fcurated-projects%2FItsgalo%2FBASALT%20GIFs%2FBASALT_231204_04.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fcurated-projects%2FItsgalo%2FBASALT%20GIFs%2FBASALT_240320_10.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://versecontent.com/image/source/static%2Fcurated-projects%2FItsgalo%2FBASALT%20GIFs%2FBASALT_240320_05.gif",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/basalt/index.html",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "media/basalt/index.html",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript/GLSL/Processing",
+        "GIF Editions": "20",
+        "RT Editions": "96"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://verse.works/series/basalt-rt-itsgalo"
+        }
+      ],
+      "body": [
+        "BASALT GIFs is a curated series of 20 animated digital paintings made with a custom real-time software built with Processing. Each piece is uniquely generated through a stochastic generative process involving simulated gestures, limited color palettes, video feedback, and graphics quantization algorithms. The gestures repeat themselves continuously producing pigmented trails which bleed together and slowly fade out as their lifespan on the canvas diminishes. The animations loop seamlessly and are made of 90 unique individual still frames. Each animation is formatted as a 720x960 GIF.",
+        "BASALT RT is a real-time Javascript software artwork that explores the BASALT algorithm in a long-form generative format. It leverages the interactivity of the web browser and provides an interface for walking through the parameter space of the algorithm. Each iteration generates unique gestures and color combinations based on a set of constraints, resulting in a range of abstract 2D figures that flow, blend, and dissipate through the canvas forever."
+      ],
+      "id": "basalt"
+    },
+    {
+      "title": "Lightweight Reconstruction",
+      "year": 2024,
+      "tags": [
+        "software",
+        "generative"
+      ],
+      "summary": "A browser-based study of architectural materiality.",
+      "media": [
+        {
+          "type": "image",
+          "fit": "contain",
+          "src": "https://abstudio-54-mainnet.s3.amazonaws.com/0.png"
+        },
+        {
+          "type": "image",
+          "src": "https://abstudio-54-mainnet.s3.amazonaws.com/104.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://abstudio-54-mainnet.s3.amazonaws.com/24.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://abstudio-54-mainnet.s3.amazonaws.com/74.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://abstudio-54-mainnet.s3.amazonaws.com/3.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://abstudio-54-mainnet.s3.amazonaws.com/7.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://abstudio-54-mainnet.s3.amazonaws.com/5.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://abstudio-54-mainnet.s3.amazonaws.com/12.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://abstudio-54-mainnet.s3.amazonaws.com/28.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://abstudio-54-mainnet.s3.amazonaws.com/22.png",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "https://abstudio-54-mainnet.s3.amazonaws.com/46.png",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript/GLSL",
+        "Editions": "128"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://www.artblocks.io/collection/lightweight-reconstruction-by-itsgalo-x-office-ca"
+        }
+      ],
+      "id": "lightweight",
+      "body": [
+        "This project is part of an ongoing experiment in contextualizing and representing digital tectonics (simulated particles, 3D meshes, physics engines, etc) called Lightweight Construction. This generative iteration of the project follows Gottfried Semper’s speculations on the core elements of architecture laid out in the seminal 1851 essay The Four Elements of Architecture: hearth (H), mound (M), enclosure (E), and roof (R). Using Semper as a starting point, we developed a combinatorial matrix that suggests various types of ways the four elements can be assembled in pairs. The generative ruleset creates a limited set of assemblies that are expressed as blended mathematical primitives. Roofs are expressed as geometric extrusions, Mounds as tiled platforms, Hearths as smooth volumes, and Enclosures as rectilinear frames. Representing these as functions allows them to morph smoothly into each other in virtual space; something almost impossible to do in physical space."
+      ]
+    },
+    {
+      "id": "printers-book",
+      "title": "PRINTERS (BOOK)",
+      "year": 2025,
+      "tags": [
+        "book"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "media/printers-book/01.jpg",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/printers-book/02.jpg",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/printers-book/03.jpg",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/printers-book/04.jpg",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/printers-book/05.jpg",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/printers-book/06.jpg",
+          "fit": "cover"
+        }
+      ],
+      "fields": {
+        "Editions": "200"
+      },
+      "links": [
+        {
+          "label": "Shop",
+          "href": "https://www.criticalsoftware.org/product/printers"
+        }
+      ],
+      "body": [
+        "PRINTERS is a generative animated artwork released as a series of 256 editions linked to corresponding tokens on the Tezos blockchain. This small book serves as documentation of parts of the work including still captures of all 256 minted editions of PRINTERS along with the compressed code and hashes that were used to generate them."
+      ]
+    },
+    {
+      "title": "DIORAMAS",
+      "year": 2025,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated artwork built with a custom pixel-perfect WebGL rendering engine.",
+      "media": [
+        {
+          "type": "iframe",
+          "src": "https://kit.raster.art/mediaproxy/onchfs/13759054/?fxchain=BASE&fxiteration=1&fxminter=0x9A9B1dAfCD6C9eAe445191FE8790943A5e56257c&fxhash=0x8aef3587b4bf69ad3fdf08aadf9b03891dbb79ad0e4f9d3aadae2c73a821418a",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://kit.raster.art/mediaproxy/onchfs/16684730/?fxchain=BASE&fxiteration=947&fxminter=0x0dbB5E6Edb981271385062398499509F6A1171d9&fxhash=0x640d6333d05f3ec6c4091a8d6404a9505f533123cff06ab48b3d590e6f5b65f9&parentHashesUpdate=c1b8c20f86000000#lineage=0xd01abbc0b5f62e7eeb7fbbcbba1feb3e964abe771de6df3ecf072e052e10817c",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://kit.raster.art/mediaproxy/onchfs/15861729/?fxchain=BASE&fxiteration=945&fxminter=0xB630AbD9a5367763B7CBa316e870c4A54064CC9F&fxhash=0xdaa6af869570efcaaa5e5d13aa7a23fac07fc2ada31012685c169ffc94a43812&parentHashesUpdate=41b2162cf7000000#lineage=0xd01abbc0b5f62e7eeb7fbbcbba1feb3e964abe771de6df3ecf072e052e10817c,0xf9e9a940dd111fe64cc9fc99b9c757407dd02c5b0610e9e6611cd2a9ae0c2444,0x99dd745ceadfa65571bad09b6437500c13f7c5678a2a0fafe0a9568774eec311,0xa2541f8421752d66fae59671cc7112e51c274fe131f435a9f78599be96fbbf88",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://kit.raster.art/mediaproxy/onchfs/15796336/?fxchain=BASE&fxiteration=941&fxminter=0xA218e658F1f863147caa781610170F6B5F48De21&fxhash=0x43e2942d2086fc42f6b815302d07d0b841598171f17b22bbc8d08501fbef2fd7&parentHashesUpdate=c1ca891f40800000#lineage=0x8ac6df3fe62069089fbbe2cac02f45e32033165cdcc91914240221c2b237c482,0x2b00d948260c4505e460db260919fa8420c0d9ac029bf0e759e1402046f2c872,0x240ced3f38ca7efdb07830ba2a18ef9a9bd5f9cbe2d40e23d24a1a2d18d519b7",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://kit.raster.art/mediaproxy/onchfs/15790917/?fxchain=BASE&fxiteration=940&fxminter=0xB630AbD9a5367763B7CBa316e870c4A54064CC9F&fxhash=0xa2541f8421752d66fae59671cc7112e51c274fe131f435a9f78599be96fbbf88&parentHashesUpdate=c1d329215e800000#lineage=0xd01abbc0b5f62e7eeb7fbbcbba1feb3e964abe771de6df3ecf072e052e10817c,0xf9e9a940dd111fe64cc9fc99b9c757407dd02c5b0610e9e6611cd2a9ae0c2444,0x99dd745ceadfa65571bad09b6437500c13f7c5678a2a0fafe0a9568774eec311",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://kit.raster.art/mediaproxy/onchfs/15788118/?fxchain=BASE&fxiteration=938&fxminter=0xB630AbD9a5367763B7CBa316e870c4A54064CC9F&fxhash=0x99dd745ceadfa65571bad09b6437500c13f7c5678a2a0fafe0a9568774eec311&parentHashesUpdate=c1c17942de800000#lineage=0xd01abbc0b5f62e7eeb7fbbcbba1feb3e964abe771de6df3ecf072e052e10817c,0xf9e9a940dd111fe64cc9fc99b9c757407dd02c5b0610e9e6611cd2a9ae0c2444",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://kit.raster.art/mediaproxy/onchfs/15787707/?fxchain=BASE&fxiteration=933&fxminter=0x2c969e6626cB4e94C855a00d27D33A2f83E40aD1&fxhash=0x978250406b2b3593d3864678a63babcbc781f064b84274889654a5dbe4b00991&parentHashesUpdate=c1bb1b3251000000#lineage=0x69a6da034a021e40196807545fa83e8a93e136b0242fe48a8968dd13db87cf58,0x13e8769768420263563f029444f7720c7ae6edc5843841e8b4697511d1b61438,0x3bdc06a60780c00419fed863adb998aa10dfdb948d38910fa81ce07d1f998e85",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://kit.raster.art/mediaproxy/onchfs/15787285/?fxchain=BASE&fxiteration=931&fxminter=0x77bc29C255b718B071E6694AD7A195cfc90E63e9&fxhash=0x7841814e7b552ca1601912101ab66f6771b9a9cb701873d72ff3e4c67d7c1aa8&parentHashesUpdate=41d020ea03c00000#lineage=0x8aef3587b4bf69ad3fdf08aadf9b03891dbb79ad0e4f9d3aadae2c73a821418a,0xe5faccc42815293dcd5e04918347e0e87a7660a5384f053f0b9fedfc840a4a95",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://kit.raster.art/mediaproxy/onchfs/15786136/?fxchain=BASE&fxiteration=930&fxminter=0x94E3d321DDaeAbD8EB68413fe906b95Cb3a182D3&fxhash=0x4746ffe04d9b02f62108596274209686fd47f2595e2a61a54db0a33707289119",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript",
+        "Editions": "824"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://www.raster.art/artwork/dioramas-by-galo-canizares"
+        }
+      ],
+      "id": "dioramas",
+      "body": [
+        "DIORAMAS is a study in world-making. The worlds made here consist of pixels and abstract forms designed to mimic some sense of nature. Creatures exhibit behaviors considered natural such as group flocking and smooth navigation. Landscape elements such as trees and mountains grow and mutate according to algorithmic growth patterns. Together these make up an artificial, low-resolution world reminiscent of early video games that performs as a desktop terrarium. It is designed to be experienced in real-time, forever.",
+        "DIORAMAS leverages the open-form format to grow and shrink. Each iteration inherits different traits from its lineage, while also relying on stochastic generation to build a unique world. It is crucial to note that the system cannot grow infinitely. Like our own world, the environment grows and thrives, but eventually deteriorates and returns to dust.",
+        "The evolution works as follows: Level 0 -> Sets the environment (tree types, ground texture, color palette). Level 1 -> Expands the environment slightly, air population grows. Level 2 -> Introduces small ground organisms, expands the environment more. Level 3 -> Mountains begin to grow, ground population increases. Level 4, 5, 6, ... -> Population keeps growing. Level 10+ -> De-growth begins, population declines, ground erodes.",
+        "Inspired by Craig Reynolds's work on steering behaviors for video game characters and Jeffrey Ventrella's artificial life explorations. In assuming that natural behaviors can be discretized into code, these synthetic organisms computationalize us as we project organic characteristics onto them."
+      ]
+    },
+    {
+      "title": "GAMERS",
+      "year": 2026,
+      "tags": [
+        "software",
+        "generative",
+        "real-time"
+      ],
+      "summary": "Generative animated artwork built with a custom pixel-perfect WebGL rendering engine.",
+      "media": [
+        {
+          "type": "iframe",
+          "fit": "contain",
+          "src": "https://generator.artblocks.io/1/0x0000b52017e1ec58f64171b6001518c07a9aec00/1000000"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x0000b52017e1ec58f64171b6001518c07a9aec00/1000002",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x0000b52017e1ec58f64171b6001518c07a9aec00/1000009",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x0000b52017e1ec58f64171b6001518c07a9aec00/1000017",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x0000b52017e1ec58f64171b6001518c07a9aec00/1000040",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x0000b52017e1ec58f64171b6001518c07a9aec00/1000020",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x0000b52017e1ec58f64171b6001518c07a9aec00/1000022",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x0000b52017e1ec58f64171b6001518c07a9aec00/1000038",
+          "fit": "contain"
+        },
+        {
+          "type": "iframe",
+          "src": "https://generator.artblocks.io/1/0x0000b52017e1ec58f64171b6001518c07a9aec00/1000067",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Medium": "javascript",
+        "Editions": "1000"
+      },
+      "links": [
+        {
+          "label": "Collection",
+          "href": "https://www.artblocks.io/collection/gamers-by-itsgalo"
+        }
+      ],
+      "id": "gamers",
+      "body": [
+        "GAMERS is an experimental real-time videogame artwork set in an entirely procedurally generated world. The game invites audiences to play a game of spaceship tag. One ship escapes, the other follows. When left idle, the game plays itself in autopilot mode forever. But as soon as the user presses the throttle, manual mode is enabled and the chase is on."
+      ]
+    },
+    {
+      "id": "raster-book",
+      "title": "RASTER (BOOK)",
+      "year": 2026,
+      "tags": [
+        "book"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "media/raster-book/web-03.jpg",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-04.jpg",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-05.jpg",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-06.jpg",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-07.jpg",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-08.jpg",
+          "fit": "cover"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-09.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-11.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-21.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-31.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-41.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-51.jpg",
+          "fit": "contain"
+        },
+        {
+          "type": "image",
+          "src": "media/raster-book/web-61.jpg",
+          "fit": "contain"
+        }
+      ],
+      "fields": {
+        "Editions": "500"
+      },
+      "links": [
+        {
+          "label": "Shop",
+          "href": "https://www.criticalsoftware.org/product/raster"
+        }
+      ],
+      "body": [
+        "RASTER (the book) documents RASTER (the digital artwork). The project was released as a series of 400 unique iterations in 2022 as part of Art Block’s Curated Collection, an online platform for generative art. Each edition was minted on the Ethereum blockchain, which provides unique provenance for born-digital, web-based artworks. The book collects all of the generated iterations and organizes them thematically in a rich variety of full color plates. Together with critical reflections, descriptions, and source code, RASTER (the book) provides a comprehensive documentation of this unique project. Includes a guest essay by computational designer Mark Ericson, author of Animating Guarini. Graphic design by Anthony Zukofsky. Published by Critical Software Press."
+      ]
+    }
+  ]
+}

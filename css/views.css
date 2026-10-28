@@ -1,0 +1,63 @@
+/* Custom node bodies (Preview screen, Inspect list) and the resize grip. */
+@layer components {
+  .node-view {
+    position: relative;
+    border-top: 1px solid var(--rule);
+    overflow: hidden;
+  }
+  .node.is-resizable .node-readout { border-top-style: solid; border-top-color: var(--rule); }
+
+  .node-resize {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    width: 10px;
+    height: 10px;
+    cursor: nwse-resize;
+    background: linear-gradient(135deg, transparent 50%, var(--ink-3) 50%);
+  }
+  .node-resize:hover { background: linear-gradient(135deg, transparent 50%, var(--ink) 50%); }
+
+  /* Preview: a projector inside the node. Content ignores the pointer so the node stays draggable. */
+  .node-screen.projector {
+    position: absolute;
+    inset: 0;
+    background: var(--projector-bg);
+  }
+  .node-screen * { pointer-events: none; }
+  .node-screen[data-signal="off"]::after {
+    content: "No signal";
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    font-size: var(--fs-label);
+    letter-spacing: var(--tracking);
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  /* Inspect: key / value list */
+  .inspect-list {
+    height: 100%;
+    overflow: auto;
+    padding: 2px 0;
+    font-size: var(--fs-label);
+    user-select: text;
+    -webkit-user-select: text;
+  }
+  .inspect-row {
+    display: grid;
+    grid-template-columns: minmax(0, 40%) 1fr;
+    gap: 8px;
+    padding: 1px var(--pad);
+    line-height: 16px;
+  }
+  .inspect-row:nth-child(even) { background: var(--paper-2); }
+  .inspect-k, .inspect-v { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .inspect-k { color: var(--ink-3); }
+  .inspect-empty { padding: 4px var(--pad); color: var(--ink-3); }
+
+  .socket[data-type="any"] { --sock: var(--ink-3); }
+}

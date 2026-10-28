@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Index</title>
+
+  <!-- Layer order is declared in tokens.css: tokens, base, components, theme -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/projector.css">
+  <link rel="stylesheet" href="css/canvas.css">
+  <link rel="stylesheet" href="css/node.css">
+  <link rel="stylesheet" href="css/wire.css">
+  <link rel="stylesheet" href="css/widgets.css">
+  <link rel="stylesheet" href="css/views.css">
+  <link rel="stylesheet" href="css/record.css">
+  <link rel="stylesheet" href="css/console.css">
+  <link rel="stylesheet" href="css/chrome.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/themes/default.css" id="theme">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cossette+Texte:wght@400;700&display=swap" rel="stylesheet">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <div id="projector"></div>
+
+  <div id="graph" class="graph desktop-only"></div>
+
+  <header class="bar bar-top desktop-only">
+    <button class="bar-title" type="button" data-action="about" data-site-title></button>
+    <nav class="bar-actions">
+      <button type="button" data-action="add">Add node</button>
+      <button type="button" data-action="fit">Fit</button>
+      <button type="button" data-action="reset">Reset</button>
+      <button type="button" data-action="console" aria-pressed="true">Console</button>
+      <button type="button" data-action="graph">Hide graph</button>
+    </nav>
+  </header>
+
+  <aside id="console" class="desktop-only"></aside>
+
+  <footer class="bar bar-bottom desktop-only">
+    <span data-status="graph"></span>
+    <span data-status="signal"></span>
+  </footer>
+
+  <section id="info" class="info mobile-only" hidden></section>
+
+  <p id="boot-error" class="boot-error" hidden></p>
+</body>
+</html>
