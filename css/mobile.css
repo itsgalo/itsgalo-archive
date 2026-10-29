@@ -46,8 +46,25 @@
   .info.is-open .info-summary { display: block; -webkit-line-clamp: unset; }
   .info.is-open .info-more {
     display: block;
-    max-height: 55vh;
+    max-height: 50vh;
     overflow: auto;
     border-top: 1px solid var(--rule);
+  }
+  /* Projector fills the space above the info panel instead of the whole screen */
+  .mode-mobile body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;   /* fallback */
+    height: 100dvh;  /* excludes the browser's own toolbars on phones */
+  }
+  .mode-mobile #projector {
+    position: relative;
+    inset: auto;
+    flex: 1 1 auto;
+    min-height: 0;
+  }
+  .mode-mobile .info {
+    position: relative;
+    flex: none;
   }
 }
